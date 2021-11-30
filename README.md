@@ -8,13 +8,13 @@ entring value in url.
 Clone the project
 
 ```bash
-  git clone https://github.com/Harsh-Dobariya/Timestamp-service.git
+  git clone https://github.com/Harsh-Dobariya/timestamp-service.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Timestamp-service
+  cd timestamp-service
 ```
 
 Install dependencies
