@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>URL Shortener Microservice | freeCodeCamp.org</title>
+  <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/91943309?v=4" type="image/x-icon" />
+  <link href="/public/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>URL Shortener Microservice</h1>
+  <h2>Short URL Creation</h2>
+  <p>
+    Example: <code>POST [project_url]/api/shorturl</code> -
+    <code>https://www.google.com</code>
+  </p>
+  <main>
+    <section>
+      <form action="api/shorturl" method="POST">
+        <fieldset>
+          <legend>URL Shortener</legend>
+          <label for="url_input">URL:</label>
+          <input id="url_input" type="text" name="url" placeholder="https://github.com/Harsh-Dobariya" />
+          <input type="submit" value="POST URL" />
+        </fieldset>
+      </form>
+    </section>
+    <h2>Example Usage:</h2>
+    <a href="https://github.com/Harsh-Dobariya">
+      [this_project_url]/api/shorturl/0
+    </a>
+
+    <h3>Will Redirect to:</h3>
+    <p>https://github.com/Harsh-Dobariya</p>
+  </main>
+  <footer>
+    <p>By <a href="https://github.com/Harsh-Dobariya">Harsh-Dobariya</a></p>
+  </footer>
+</body>
+
+</html>
