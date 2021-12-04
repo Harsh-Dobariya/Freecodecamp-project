@@ -1,21 +1,14 @@
-// server.js
-// where your node app starts
-
 // init project
 const express = require('express');
 const app = express();
 
-// http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
 app.use(express.json());
 
-// http://expressjs.com/en/starter/basic-routing.html
 app.get("/", (req, res) => {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-
-// your first API endpoint... 
 app.get("/api/:date?", (req, res) => {
   const d = req.params.date;
   let date;
@@ -39,7 +32,5 @@ app.get("/api/:date?", (req, res) => {
   })
 });
 
-
-// listen for requests :)
 const port = process.env.PORT || 80;
 app.listen(port, () => { console.log(`Server is running on.... http://localhost:${port}`) });
