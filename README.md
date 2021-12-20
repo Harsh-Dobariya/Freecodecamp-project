@@ -30,7 +30,9 @@ Start the server
 ```bash
   npm start
 ```
+## Demo
 
+https://exercise-tracker.harshdobariya.repl.co/
 
 ## Tech Stack
 
