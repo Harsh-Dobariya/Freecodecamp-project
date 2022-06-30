@@ -1,0 +1,50 @@
+/****** Main Styling ******/
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.container {
+  padding: 0;
+  margin-top: 40px;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+a {
+  color: #2574A9;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+}
+
+input#button {
+  background-color: green;
+  width: 250px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+input#button:hover {
+  background-color: rgb(20, 192, 20)
+}
+
+.view {
+  background: linear-gradient(rgb(20, 7, 209), rgb(19, 202, 248));
+  position:relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px  solid  #aaa;
+  padding: 20px;
+  width: 60%;
+  min-width: 400px;
+}
