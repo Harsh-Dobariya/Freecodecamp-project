@@ -1,0 +1,47 @@
+/****** Main Styling ******/
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.container {
+  padding: 0;
+  margin-top: 40px;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+hr {
+  margin: 25px;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+code {
+  padding: 2px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #2574a9;
+}
